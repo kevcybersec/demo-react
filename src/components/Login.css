@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.loginContainer {
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    margin-top: 6rem;
+    width: 20rem;
+    height: 30rem;
+    border: 1px solid;
+    border-radius: 6px;
+}
+
+input {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 0.3rem;
+    width: 100%;
+}
+
+input[type="text"] {
+    text-align: center;
+    font-size: 0.9rem;
+}
+
+input[type="password"] {
+    text-align: center;
+    font-size: 0.9rem;
+}
+
+.input-control {
+    margin: 4rem;
+    gap: 1rem;
+}
+
+.buttonContainer {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.buttonContainer button {
+    border-radius: 4px;
+    border: none;
+    width: 70%;
+    background-color: crimson;
+    padding: 0.4rem;
+    color: azure;
+}
